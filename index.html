@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Eudorah Nwabueze | Frontend Developer</title>
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">EN</div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-toggle">
+        <i class="mdi mdi-weather-night"></i>
+      </button>
+      <div class="hamburger" id="hamburger">☰</div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Eudorah Nwabueze</h1>
+      <h2>Frontend Developer | UI-Focused Engineer</h2>
+      <p>
+        I design and build responsive, user-centered web experiences.
+        My focus is clean architecture, scalable interfaces, and
+        elegant digital solutions that drive real business results.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="primary-btn">View My Work</a>
+        <a href="#contact" class="secondary-btn">Hire Me</a>
+      </div>
+
+     <div class="socials">
+  <a href="https://www.linkedin.com/in/eudoranwabueze" target="_blank">
+    <i class="mdi mdi-linkedin"></i>
+  </a>
+  <a href="https://x.com/iameudora_" target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" viewBox="0 0 24 24">
+      <path d="M18.244 2H21.5l-7.53 8.6L22 22h-6.9l-5.4-7.1L3.5 22H.244l8.1-9.3L2 2h7l4.9 6.5L18.244 2z"/>
+    </svg>
+  </a>
+  </div>
+</div>
+    <div class="hero-img">
+      <img src="./src/assets/profile.jpeg" alt="Eudorah Nwabueze">
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+
+    <p class="about-intro">
+      I am a detail-oriented frontend developer passionate about building
+      high-performance and visually refined web applications.
+      I bridge design and functionality to create intuitive digital products.
+    </p>
+
+    <div class="about-grid">
+      <div>
+        <h3>Core Skills</h3>
+        <p>HTML, CSS, Tailwind CSS, JavaScript, Responsive Design, DOM Manipulation</p>
+      </div>
+
+      <div>
+        <h3>Tools & Workflow</h3>
+        <p>Git, GitHub, VSCode</p>
+      </div>
+
+      <div>
+        <h3>What I Deliver</h3>
+        <p>Clean UI, Performance Optimization, Maintainable Code, Scalable Layouts</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Selected Projects</h2>
+    <div class="project-container" id="projectContainer"></div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let’s Build Something Exceptional</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Tell me about your project"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="./src/script/data.js"></script>
+  <script src="./src/script/app.js"></script>
+</body>
+</html>
