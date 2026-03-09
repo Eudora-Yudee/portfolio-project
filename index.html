@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <title>Eudorah Nwabueze | Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Eudorah<span>.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="hero-bg-orb"></div>
+    <div class="hero-bg-orb-2"></div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, welcome to my portfolio</p>
+        <h1 class="hero-name">Eudorah Nwabueze</h1>
+        <p class="hero-role"><span id="typed-role"></span></p>
+        <p class="hero-bio">
+         I build interfaces that are clean, responsive, and thoughtfully put together, making sure that effective designs and codes co-exist and <strong>get the job done.</strong>
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="btn-outline">Hire Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/eudoranwabueze" target="_blank" class="social-link" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://x.com/iameudora_" target="_blank" class="social-link" title="X / Twitter">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M18.244 2H21.5l-7.53 8.6L22 22h-6.9l-5.4-7.1L3.5 22H.244l8.1-9.3L2 2h7l4.9 6.5L18.244 2z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/" target="_blank" class="social-link" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="hero-image-frame">
+          <img src="./src/assets/profile.jpeg" alt="Eudorah Nwabueze — Frontend Developer">
+          <div class="hero-badge">
+            <strong>Open to Work</strong>
+            Available now ✓
+          </div>
+          <div class="hero-badge-2">Frontend Dev</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-inner">
+      <p class="section-label fade-in">Get to know me</p>
+      <h2 class="section-title fade-in">About Me</h2>
+
+      <div class="about-grid">
+        <div class="fade-in">
+          <p class="about-bio">
+            I'm a detail-oriented <strong>Frontend Developer</strong> passionate about building user-centered,
+            high-performance, visually refined web applications. I bridge design and functionality
+            to create intuitive digital products that users love.
+          </p>
+          
+          <div class="info-grid">
+            <div class="info-item">
+              <p class="label">Name</p>
+              <p class="value">Eudorah Nwabueze</p>
+            </div>
+            <div class="info-item">
+              <p class="label">Location</p>
+              <p class="value">Lagos, Nigeria</p>
+            </div>
+            <div class="info-item">
+              <p class="label">Education</p>
+              <p class="value">BA in Mass Communication, University of Nigeria</p>
+            </div>
+            <div class="info-item">
+              <p class="label">Availability</p>
+              <p class="value">Open to Work ✓</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="fade-in">
+          <p class="skills-title">Technical Skills</p>
+          <div class="skills-list">
+            <div class="skill-bar">
+              <div class="skill-top"><span>HTML / CSS</span><span>95%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="--w:95%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-top"><span>JavaScript</span><span>85%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="--w:85%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-top"><span>Tailwind CSS</span><span>80%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="--w:80%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-top"><span>Responsive Design</span><span>92%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="--w:92%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-top"><span>Git / GitHub</span><span>80%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="--w:80%"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-top"><span>DOM Manipulation</span><span>88%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="--w:88%"></div></div>
+            </div>
+          </div>
+
+          <p class="skills-title" style="margin-top:2rem;">What I Deliver</p>
+          <div class="tags">
+            <span class="tag">Clean UI</span>
+            <span class="tag">Performance</span>
+            <span class="tag">Accessibility</span>
+            <span class="tag">Scalable Layouts</span>
+            <span class="tag">Maintainable Code</span>
+            <span class="tag">VSCode · Git</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-inner">
+      <div class="projects-header fade-in">
+        <div>
+          <p class="section-label">What I've built</p>
+          <h2 class="section-title">Selected Projects</h2>
+        </div>
+        <p>A few things I have built early in my career. More on the way!</p>
+      </div>
+      <div id="projects-grid"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-inner">
+      <p class="section-label fade-in">Let's Build Something</p>
+      <h2 class="section-title fade-in">Get In Touch</h2>
+
+      <div class="contact-grid">
+        <div class="fade-in">
+          <p class="contact-intro">
+            Have a project or an opportunity in mind? I'm open to it.
+            Drop a message and let's figure out if we're a good fit.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-item-text">
+                <p class="label">Email</p>
+                <p class="value">eudoranwabueze@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-item-text">
+                <p class="label">LinkedIn</p>
+                <p class="value">linkedin.com/in/eudoranwabueze</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.244 2H21.5l-7.53 8.6L22 22h-6.9l-5.4-7.1L3.5 22H.244l8.1-9.3L2 2h7l4.9 6.5L18.244 2z"/>
+                </svg>
+              </div>
+              <div class="contact-item-text">
+                <p class="label">X / Twitter</p>
+                <p class="value">@iameudora_</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-item-text">
+                <p class="label">Location</p>
+                <p class="value">Lagos, Nigeria</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card fade-in">
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Doe" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Project Inquiry" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Tell me about your project..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p id="form-msg"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed & built by <span>Eudorah Nwabueze</span> &nbsp;·&nbsp; © 2026</p>
+  </footer>
+
+  <script src="./src/script/data.js"></script>
+  <script src="./src/script/app.js"></script>
+</body>
+</html>
