@@ -1,4 +1,4 @@
-const roles = ["Frontend Developer", "UI-Focused Engineer", "Creative Builder"];
+const roles = ["Frontend Developer", "UI-Focused Engineer", "I Turn Designs into Reality"];
 let roleIndex = 0, charIndex = 0, deleting = false;
 const typedEl = document.getElementById('typed-role');
 
